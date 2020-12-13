@@ -18,40 +18,22 @@ matplotlib==2.1.2
 
 ## Usage
 ### Download data
-- [DOWNLOAD DATA](https://pan.baidu.com/s/1I_1o7RePylgjzxAPXZ6BMA).
 - Note: This dataset was firstly provided in [GETNET: A General End-to-end Two-dimensional CNN Framework for Hyperspectral Image Change Detection](https://arxiv.org/abs/1905.01662).
 
 ### Install the requirements
 ```
 pip install -r requirements.txt
 ```
-### Run code
-```
-python dsfa.py [-h] [-e EPOCH] [-l LR] [-r REG] [-t TRN] [-i ITER] [-g GPU]
-               [--area AREA]
-```
-```
-optional arguments:
-  -h, --help              show this help message and exit
-  -e EPOCH, --epoch EPOCH epoches
-  -l LR, --lr LR          learning rate
-  -r REG, --reg REG       regularization parameter
-  -t TRN, --trn TRN       number of training samples
-  -i ITER, --iter ITER    max iteration
-  -g GPU, --gpu GPU       GPU ID
-  --area AREA             datasets
 
-```
 ### Results
 <center>
 
-|  Our Results   | Reference Image  |
+|  Predicted Results   | Reference Image  |
 |  :----:  | :----:  |
 | <img src="./results/change_map.png" >  | <img src="./results/change_ref.png"> |
 </center>
 
 ## Citation
-Please cite our paper if you use this code in your research.
 ```
 @article{Du2019Unsupervised,
   author={B. {Du} and L. {Ru} and C. {Wu} and L. {Zhang}},
@@ -66,6 +48,3 @@ Please cite our paper if you use this code in your research.
   month={Dec},
 }
 ```
-
-## Q & A
-**For any questions, please [contact us.](mailto:rulixiang@outlook.com)**
